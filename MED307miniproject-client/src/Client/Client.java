@@ -1,7 +1,6 @@
 package Client;
 
 
-
 public class Client {
 
     /**
@@ -9,7 +8,10 @@ public class Client {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        new NewJFrame().setVisible(true);
+        //Changed from
+        // new NewJFrame().setVisible(true);
+        // to
+        new javaapplication1.NewJFrame().setVisible(true);
     }
     
 }
